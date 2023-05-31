@@ -27,12 +27,12 @@ h2 {
 .button {
     text-decoration: none;
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #3333;
     color: #fff;
     border-radius: 4px;
-    box-shadow: 2px 2px 4px #3333;
+    box-shadow: 2px 2px 4px #555;
     /* Mezcla de sombra entre #555 y #3333 */
-    border: 1px solid #3333;
+    border: 1px solid #333;
     /* Mezcla de marco entre #555 y #3333 */
 }
 
