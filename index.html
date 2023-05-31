@@ -6,17 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Portafolio</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        .video-container {
-            display: flex;
-            justify-content: center;
-        }
-        
-        video {
-            max-width: 8cm;
-            width: 100%;
-        }
-    </style>
 </head>
 
 <body>
@@ -39,18 +28,12 @@
         </section>
 
         <section id="sobre-mi" class="section">
-            <h2>Sobre mí</h2>
+            <h2></h2>
             <!-- Contenido de la sección sobre mí -->
-            <div class="video-container">
-                <video autoplay loop>
-                    <source src="C:\Users\chris\OneDrive\Documentos\createWithCode\Majo Gemas\christianrruiz.github.io\homer-page.mp4" type="video/mp4">
-                    Tu navegador no admite la etiqueta de video.
-                </video>
-            </div>
         </section>
 
         <section id="contacto" class="section">
-            <h2>Contacto</h2>
+            <h2></h2>
             <!-- Contenido de la sección de contacto -->
         </section>
     </div>
@@ -64,7 +47,14 @@
         <p>Derechos de autor &copy; 2023 | Desarrollador de Videojuegos</p>
     </footer>
 
-    <script src="script.js"></script>
+    <video src="C:\Users\chris\OneDrive\Documentos\createWithCode\Majo Gemas\christianrruiz.github.io\homer-page.mp4" autoplay loop></video>
+
+    <script>
+        window.addEventListener('DOMContentLoaded', function() {
+            var video = document.querySelector('video');
+            video.play();
+        });
+    </script>
 </body>
 
 </html>
